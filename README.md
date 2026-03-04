@@ -8,9 +8,9 @@ This repository records my learning journey of C++ pointers, from basic syntax t
 - **Concepts**: Addressing (`&`), Dereferencing (`*`), Pointer Arithmetic.
 - **Skills**: Navigating arrays using offsets and returning memory addresses from functions.
 - **Exercises**:
-  - `ex1_stats.cpp`: Calculate array sum and average using pointers.
-  - `ex2_find_max.cpp`: Find the memory address of the maximum value.
-  - `ex3_zero_filter.cpp`: Modify array elements based on a threshold.
+  - `Pointer_Arithmetic.cpp`: understand the difference between *(ptr+i) and (ptr+i)
+  - `Simulating_hipMemcpy.cpp`: mock copy data manually
+  - `Block_Swap.cpp`: swap data
 
 ### Day 2: Dynamic Memory & Two-Pointers Technique
 - **Concepts**: Heap allocation (`new`/`delete`), Double Pointers (`**`), Two-pointer algorithm.
