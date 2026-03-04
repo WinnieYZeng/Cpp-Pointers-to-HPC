@@ -1,4 +1,4 @@
-## Day 1: Pointer Fundamentals & Memory Manipulation
+### Day 1: Pointer Fundamentals & Memory Manipulation
 
 This folder contains the core exercises for Day 1, focusing on how pointers bridge the gap between high-level C++ and low-level memory (HPC/GPU) management.
 
@@ -27,7 +27,7 @@ This folder contains the core exercises for Day 1, focusing on how pointers brid
 
 ---
 
-## 🧠 Key Knowledge Points
+### 🧠 Key Knowledge Points
 
 - **Pointer as Address**: A pointer stores the **location**, not the value. (`&` vs `*`).
 - **Pointer Stepping**: Adding 1 to a pointer moves it by the size of the underlying type, not 1 byte.
@@ -36,16 +36,16 @@ This folder contains the core exercises for Day 1, focusing on how pointers brid
 
 ---
 
-## ⚠️ Lessons Learned & Pitfalls
+### ⚠️ Lessons Learned & Pitfalls
 
-### 1. Wild Pointers
+##### 1. Wild Pointers
 - **Mistake**: Using uninitialized pointers leads to Segfaults.
 - **Solution**: Always initialize pointers to `nullptr`.
 
-### 2. The Power of `void*`
+##### 2. The Power of `void*`
 - **Blind Spot**: Initially confused by `void*` in copy functions.
 - **Insight**: `void*` is the standard for generic memory operations. In GPU drivers, the hardware doesn't care if the data is `int` or `float`; it only cares about raw bytes.
 
-### 3. Array Decaying
+##### 3. Array Decaying
 - **Note**: Arrays passed to functions "decay" into pointers, losing size information. Always pass the `size` explicitly.
 
